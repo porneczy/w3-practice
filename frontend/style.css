@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+}
+a{
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+
+button,
+a {
+    cursor: pointer;
+    color: inherit;
+}
+
+textarea {
+    resize: none;
+}
+
+button,
+textarea,
+select {
+    appearance: none !important;
+    border-radius: 0;
+}
+/*END OF CSS RESET*/
+
+/* #root{
+
+    background-color: #45ff32;
+
+}
+.container.wrapper{
+
+    background-color: #131517;
+
+
+}
+#root .container .container {
+
+    width: 200px;
+    height: 200px;
+
+} */
+
+
+
+/* 
+#9e0142
+#d53e4f
+#f46d43
+#fdae61
+#fee08b
+#e6f598
+#abdda4
+#66c2a5
+#3288bd
+#5e4fa2
+
+
+
+#cube1{
+   
+}
+#cube2{
+    
+}
+#cube3{
+    
+}
+#cube4{
+   
+}
+#cube5{
+
+}
+#cube6{
+    
+}
+#cube7{
+    
+}
+#cube8{
+    
+}
+#cube9{
+    
+}
+#cube10{
+    
+} */
+
+div{
+width: 400px;
+height: 400px;
+background-color: #9e0142;
+/* position: relative; */
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+div > div{
+width: 380px;
+height: 380px;
+background-color: #d53e4f;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+div > div > div{
+width: 360px;
+height: 360px;
+background-color: #f46d43;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+div > div > div > div{
+width: 340px;
+height: 340px;
+background-color: #fdae61;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+div > div > div > div > div{
+width: 320px;
+height: 320px;
+background-color: #fee08b;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+div > div > div > div > div > div{
+width: 300px;
+height: 300px;
+background-color: #e6f598;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+div > div > div > div > div > div > div{
+width: 280px;
+height: 280px;
+background-color: #abdda4;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+div > div > div > div > div > div > div > div{
+width: 260px;
+height: 260px;
+background-color: #66c2a5;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+div > div > div > div > div > div > div > div > div{
+width: 240px;
+height: 240px;
+background-color: #3288bd;
+position: absolute;top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+div > div > div > div > div > div > div > div > div > div{
+width: 220px;
+height: 220px;
+background-color: #5e4fa2;
+position: absolute;top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
