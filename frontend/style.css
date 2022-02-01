@@ -32,164 +32,30 @@ select {
 }
 /*END OF CSS RESET*/
 
-/* #root{
-
-    background-color: #45ff32;
-
-}
-.container.wrapper{
-
-    background-color: #131517;
-
-
-}
-#root .container .container {
-
-    width: 200px;
-    height: 200px;
-
-} */
-
-
-
-/* 
-#9e0142
-#d53e4f
-#f46d43
-#fdae61
-#fee08b
-#e6f598
-#abdda4
-#66c2a5
-#3288bd
-#5e4fa2
-
-
-
-#
-#cube2{
-    
-}
-#cube3{
-    
-}
-#cube4{
-   
-}
-#cube5{
-
-}
-#cube6{
-    
-}
-#cube7{
-    
-}
-#cube8{
-    
-}
-#cube9{
-    
-}
-#cube10{
-    
-} */
-#cube1{
-   position: absolute;
-   top: 10px;
-   left: 10px;
-}
-#cube7{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-#cube10{
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-div{
-width: 400px;
-height: 400px;
-background-color: #9e0142;
-/* position: relative; */
-margin: auto;
-}
-
-div > div{
-width: 380px;
-height: 380px;
-background-color: #d53e4f;
-
-}
-
-div > div > div{
-width: 360px;
-height: 360px;
-background-color: #f46d43;
-
-}
-div > div > div > div{
-width: 340px;
-height: 340px;
-background-color: #fdae61;
-
-}
-
-div > div > div > div > div{
-width: 320px;
-height: 320px;
-background-color: #fee08b;
-
-}
-
-div > div > div > div > div > div{
-width: 300px;
-height: 300px;
-background-color: #e6f598;
-
-}
-
-div > div > div > div > div > div > div{
-width: 280px;
-height: 280px;
-background-color: #abdda4;
-
-}
-
-div > div > div > div > div > div > div > div{
-width: 260px;
-height: 260px;
-background-color: #66c2a5;
-
-}
-
-div > div > div > div > div > div > div > div > div{
-width: 240px;
-height: 240px;
-background-color: #3288bd;
-
-}
-
-div > div > div > div > div > div > div > div > div > div{
-width: 220px;
-height: 220px;
-background-color: #5e4fa2;
-
-}
-
 section{
-    position: relative;
+    min-height: 100vh;
+}
+
+section.image-holder{
+    background-image: url("https://www.androidguys.com/wp-content/uploads/2016/08/Minimalistic-Wallpaper-09.jpg"); 
+    /*background-image: url("https://www.teahub.io/photos/full/96-966323_minimalist-wallpapers-minimal-background.jpg");*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*
+    display: block;
     width: 100%;
     height: 100vh;
-    border-bottom: 1px solid #e6f598;
+    object-fit: contain vagy cover; ez img vagy video tagekre vonatkozik */
 }
-section button{
-    position: absolute;
-    right: 30px;
-    bottom: 30px;
-    width: 200px;
-    height: 60px;
-    background-color: #9e0142;
+
+section.background-holder{
+    padding: 20px;
+    background-clip: content-box;
+    background-image: url("https://www.teahub.io/photos/full/96-966323_minimalist-wallpapers-minimal-background.jpg");
+    background-size: 200px auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: black;
 }
