@@ -20,13 +20,11 @@ function loadEvent(eventObject){
     //console.dir(document);
     console.dir(rootElement);
     
-    
     const listOfSectionElements = document.querySelectorAll("section");
     console.log(listOfSectionElements);
 
     const i = document.querySelector("article h2");
     console.log(i);
-    
 
     //rootElement.classList.add("newClass");
    /*  listOfSectionElements[0].classList.add("newClass");
@@ -35,20 +33,17 @@ function loadEvent(eventObject){
     listOfSectionElements[3].classList.add("newClass");
     listOfSectionElements[4].classList.add("newClass"); */
     
-    
     let anchors = "";
 
-
-    for (let index = 0; index < listOfSectionElements.length; index++) {
+    /* for (let index = 0; index < listOfSectionElements.length; index++) {
         anchors += `
             <a href="#${ listOfSectionElements[index].id }">
                 ${ listOfSectionElements[index].id }
             </a>
             `;
         
-    }
+    } */
     
-
     for (const sectionElement of listOfSectionElements) {
         // sectionElement.classList.add("newClass");
         //anchors = anchors + `<a> ${ sectionElement.id } </a>`
@@ -60,7 +55,7 @@ function loadEvent(eventObject){
 window.addEventListener("load", loadEvent);
 
 
-function miez(barmi) {
+/* function miez(barmi) {
 
     //ha ez egy szám adjuk vissza az értékét, irjuk ki hogy ez bizony egyx szám
     //ha string adjuk vissza csak fűzzünk hozzá egy !-t
@@ -77,4 +72,4 @@ function miez(barmi) {
     
 }
 console.log( miez() )
-let asd = miez(5)
+let asd = miez(5) */
